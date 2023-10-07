@@ -1,0 +1,25 @@
+<APIProxy revision="1" name="Calulator">
+    <DisplayName></DisplayName>
+    <Description></Description>
+    <CreatedAt>1696705019827</CreatedAt>
+    <LastModifiedAt>1696705567760</LastModifiedAt>
+    <BasePaths>/calulator</BasePaths>
+    <Policies>
+        <Policy>Addition</Policy>
+        <Policy>create-xml-using-params</Policy>
+        <Policy>extract-param</Policy>
+        <Policy>Extract-Value</Policy>
+        <Policy>print-output</Policy>
+        <Policy>Subraction</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>xsl://Addition.xsl</Resource>
+        <Resource>xsl://Subraction.xsl</Resource>
+    </Resources>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>
